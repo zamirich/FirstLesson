@@ -39,3 +39,16 @@ print("Периметр трегуольника равен \(trianglePerimeter)
 
 let triangleSquare = triangleSideA * triangleSideB / 2
 print("Площадь треугольника равна \(triangleSquare)\n")
+
+
+
+
+
+print("Задача3.* Пользователь вводит сумму вклада в банк и годовой процент. Найти сумму вклада через 5 лет.\n")
+
+var depositAmount: Double = 10000
+let interestRate = 0.08 //принимаем условно, что ставка поменяться не может
+for i in 1...5 {
+    depositAmount *= (1 + interestRate)
+    print("Cумма вклада в конце года \(i) равна \(Int(depositAmount))")
+}
