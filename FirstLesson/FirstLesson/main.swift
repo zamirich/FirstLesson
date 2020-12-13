@@ -22,3 +22,20 @@ print("Дискриминант равен \(discriminant)")
 let x1 = ( -b + sqrt(discriminant)) / ( 2*a )
 let x2 = ( -b - sqrt(discriminant)) / ( 2*a )
 print("Ответ: \(x1) и \(x2)\n")
+
+
+
+
+
+print("Задача 2. Прямоугольный треугольник с катетами 7 и 5. Найти площадь, периметр и гипотенузу треугольника\n")
+let triangleSideA: Double = 7
+let triangleSideB: Double = 5
+
+let triangleHypotenyse = sqrt(pow(triangleSideA,2) + pow(triangleSideB,2))
+print("Гипотенуза равна \(triangleHypotenyse)")
+
+let trianglePerimeter = triangleSideA + triangleSideB + triangleHypotenyse
+print("Периметр трегуольника равен \(trianglePerimeter)")
+
+let triangleSquare = triangleSideA * triangleSideB / 2
+print("Площадь треугольника равна \(triangleSquare)\n")
